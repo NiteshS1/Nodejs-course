@@ -14,7 +14,7 @@ const fs = require("fs/promises");
         // how many bytes we want to read
         const length = buff.byteLength;
         // the position that we want to start reading the file from
-        const position = 0;;
+        const position = 0;
         
         // we always want to read the whole content (from beginning all the way to the end)
         const content = await commandFileHandler.read(buff, offset, length, position);
