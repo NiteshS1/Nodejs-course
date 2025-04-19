@@ -1,1 +1,1 @@
-create a file text.text
+delete the file D:\Nitesh\Coding\Nodejs Course\FileSystem\Project\text.text
