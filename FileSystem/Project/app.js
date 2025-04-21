@@ -97,5 +97,5 @@ const fs = require("fs/promises");
         if (event.eventType === "change") {
             commandFileHandler.emit("change");
         }
-    }
+    };
 })();
