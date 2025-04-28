@@ -22,8 +22,7 @@
 //     console.timeEnd("writeData");
 // })
 
-// const fs = require("fs/promises");
-
+const fs = require("fs/promises");
 (async () => {
     console.time("writeMany");
     const fileOpen = await fs.open("test.txt", "w");
@@ -33,5 +32,5 @@
         stream.write(buff);
     }
     fileOpen.close();
-    console.timeEnd("writeMany");
+    console.timeEnd("writeMany")
 })()
