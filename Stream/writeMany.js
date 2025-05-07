@@ -118,4 +118,4 @@ const fs = require("fs/promises");
         fileOpen.close();
         console.timeEnd("writeMany")
     })
-})()
+})();
