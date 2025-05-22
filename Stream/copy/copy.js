@@ -83,4 +83,4 @@ const fs = require("node:fs/promises");
     console.log(err);
     console.timeEnd("copy");
   });
-})()
+})();
